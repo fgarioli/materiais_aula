@@ -137,3 +137,4 @@ Ambos podem ser baixados no: https://www.putty.org/. Outro exemplo é a versão 
 - <https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-20-04/>
 - <https://www.linuxnaweb.com/criando-chaves-ssh-no-linux>
 - <https://askubuntu.com/questions/108217/ssh-host-key-verification-failed>
+- <https://www.youtube.com/watch?v=a2BVQ42CQyA>
