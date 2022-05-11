@@ -150,3 +150,9 @@ A utilidade do uso de quotas é possibilitar um maior controle no uso do disco d
     - Fácil utilização
     - Não precisa ser instalado
     - Interface simples
+
+## Referências
+
+- <https://vitux.com/ubuntu-proftpd-tls/>
+- <https://tecdicas.com/como-criar-um-servidor-ftp-no-ubuntu-ou-debian/>
+- <https://www.howtoforge.com/how-to-install-proftpd-with-tls-on-ubuntu-1804/>
