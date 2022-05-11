@@ -131,8 +131,8 @@ A configuração de qualquer sistema que suporte quotas envolve os seguintes pas
     **/dev/hda2 /home ext3 defaults,usrquota,grpquota 0 2**
 
 - Configurar as quotas de usuários e grupos através dos comandos:  
-  edquota <nome_usuario>\
-  edquota –g <nome_grupo>
+  edquota <nome_usuario\>  
+  edquota –g <nome_grupo\>
 
 A utilidade do uso de quotas é possibilitar um maior controle no uso do disco do servidor pelos usuários, evitando que os mesmos os sobrecarreguem com arquivos de pouca importância.
 
