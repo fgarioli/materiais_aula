@@ -84,8 +84,19 @@ Isso vai gerar os arquivos ".ssh/id_ed25519" e ".ssh/id_ed25519.pub" dentro do s
 
 Para exportar a chave pública, de forma que seja possível uma comunicação criptografada com o servidor, é necessário seguinte comando para que a chave pública seja enviada para o diretório remoto do usuário no servidor:
 
+Linux:
 ```shell
 ssh-copy-id login@servidor
+```
+
+Windows:
+```shell
+type C:\Users\usuario\.ssh\id_rsa.pub | ssh usuario@ip_servidor "cat >> .ssh/authorized_keys"
+```
+
+Linux/MacOS
+```shell
+cat ~/.ssh/id_rsa.pub | ssh usuario@ip_servidor "cat >> .ssh/authorized_keys"
 ```
 
 A partir daí, ao invés de pedir sua senha, o servidor verifica a chave privada, instalada na sua máquina e em seguida pede a passphrase. Mesmo que alguém consiga roubar sua chave privada, não conseguirá conectar sem saber a passphrase e vice-versa.
